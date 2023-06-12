@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Document Storage</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Document Storage</h1>
+  <div id="document-list">
+    <!-- Place documents here -->
+  </div>
+  <input type="file" id="document-input">
+  <button onclick="uploadDocument()">Upload</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
